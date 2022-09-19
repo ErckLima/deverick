@@ -37,7 +37,7 @@ footer{
 
 #id3{
     margin: auto; /*CENTRALIZAR A DIV*/
-    background: rgb(67, 156, 67); /*COR DE FUNDO FDA DIV*/
+    /*background: rgb(67, 156, 67); COR DE FUNDO FDA DIV*/
     border-radius: 100px; /*BORDA ARREDONDADA DA DIV*/
     text-align: center; /*POSIÇÃO DO TEXTO DA DIV*/
 }
