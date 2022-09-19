@@ -1,0 +1,52 @@
+body{
+    background: rgb(157, 157, 238); /*COLORIR FUNDO DA DIV*/
+    font: normal 15pt Arial; /*FONT DA DIV*/
+}
+
+header{
+
+    
+    color: white; /*COR DO TEXTO DA DIV*/
+    text-align: center;/*POSIÇÃO DO TEXTO DA DIV*/
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);/*SOMBRA DO TEXTO DA DIV*/
+}
+
+section{
+    background: white; /*COR DE FUNDO DA DIV*/
+    border-radius: 10px; /*ARREDONDAR BORDAS DA DIV*/
+    padding: 15px; /*ESPAÇAMENTO DO CONTEUDO DA DIV*/
+    width: 500px; /*TAMANHO HORIZONTAL DA DIV*/
+    margin: auto; /*CENTRALIZAR A DIV*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418); /*SOMBRA DA DIV*/
+
+}
+
+footer{
+    color: white; /*COR DO TEXTO DA DIV*/
+    text-align: center; /*POSIÇÃO DO TEXTO DA DIV*/
+    font-style: italic; /*FONTE DO TEXTO DA DIV*/
+    
+}
+#ver{
+    box-shadow: 5px 5px 10px rgba(66, 0, 247, 0.418); /*SOMBRA DA DIV*/
+    width: 100px; /*TAMANHO HORIZONTAL DA DIV*/
+    height: 30px; /*TAMANHO VERTICAL DA DIV*/
+    background-color: rgb(75, 75, 78); /*COR DE FUNDO DO COMPONENTE DA DIV*/
+    border-radius: 3px; /*BORDA ARREDONDADA DA DIV*/
+}
+
+#id3{
+    margin: auto; /*CENTRALIZAR A DIV*/
+    background: rgb(67, 156, 67); /*COR DE FUNDO FDA DIV*/
+    border-radius: 100px; /*BORDA ARREDONDADA DA DIV*/
+    text-align: center; /*POSIÇÃO DO TEXTO DA DIV*/
+}
+
+#principal{
+    text-align: center; /*POSIÇÃO DO TEXTO DA DIV*/
+    background: rgb(214, 214, 197); /*COR DE FUNDO FDA DIV*/
+    border-radius: 20px; /*BORDA ARREDONDADA DA DIV*/
+}
+#copy{
+    text-shadow: 2px 2px 1px black; /*SOMBRA DO TEXTO DA DIV*/
+}
