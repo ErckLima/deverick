@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora-JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <div id="principal">
+            <p>
+                <br>
+                <input type="number" id="valor" onmouseenter="Entrou()" onmouseout="Sair()" required>
+                <div id="operação">
+                </div>
+                <input type="number" id="valor2" onmouseenter="Entrou()" onmouseout="Sair()" required>
+            </p>
+            <p>
+                Operação: 
+                <input type="radio" name="opera" id="dep" onclick="Somar()">
+                <label for="Dep">SOMAR</label>
+                <input type="radio" name="opera" id="sac" onclick="Subtrair()">
+                <label for="sac">SUBTRAIR</label>
+            </p>
+            <p>
+                <input type="button" name="Verificar" id="ver" value="=" onclick="Verificar()"> 
+                <p>
+                    <br>
+                </p>
+            </p>
+        </div>
+        <div id="Resultado">
+            
+            Perencha os campos acima para apresentar o resultado
+            
+        </div>
+    </section>
+    <div>
+        <br>
+    </div>
+    <div id="id3">
+        <h1>
+            ...
+        </h1>
+    </div>
+    <footer>
+        <div id="copy">
+            <strong><p>&copy;Erick Lima</p></strong>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
