@@ -33,12 +33,14 @@ let a = document.getElementById("Resultado")
     if (opcao[0].checked){
         var resultado = Number(valor1.value) + Number(valor2.value)
         var results = window.document.getElementById("id3")
+        results.style.background = "white"
         results.innerHTML = "O valor é: " + resultado
         a.innerHTML = "Pressione o botão para realizar a subtração!"
     }
     else if (opcao[1].checked){
         var resultado = Number(valor1.value) - Number(valor2.value)
         var results = window.document.getElementById("id3")
+        results.style.background = "white"
         results.innerHTML = "O valor é: " + resultado
         a.innerText = "Pressione o botão para realizar a soma!"
     }

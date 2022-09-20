@@ -17,7 +17,7 @@ section{
     padding: 15px; /*ESPAÇAMENTO DO CONTEUDO DA DIV*/
     width: 500px; /*TAMANHO HORIZONTAL DA DIV*/
     margin: auto; /*CENTRALIZAR A DIV*/
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418); /*SOMBRA DA DIV*/
+    box-shadow: 10px 10px 16px rgb(0, 0, 0); /*SOMBRA DA DIV*/
 
 }
 
@@ -28,7 +28,7 @@ footer{
     
 }
 #ver{
-    box-shadow: 5px 5px 10px rgba(66, 0, 247, 0.418); /*SOMBRA DA DIV*/
+    box-shadow: 7px 7px 3px rgb(255, 255, 255); /*SOMBRA DA DIV*/
     width: 100px; /*TAMANHO HORIZONTAL DA DIV*/
     height: 30px; /*TAMANHO VERTICAL DA DIV*/
     background-color: rgb(75, 75, 78); /*COR DE FUNDO DO COMPONENTE DA DIV*/
@@ -49,4 +49,7 @@ footer{
 }
 #copy{
     text-shadow: 2px 2px 1px black; /*SOMBRA DO TEXTO DA DIV*/
+}
+h1{
+    text-shadow: 4px 3px 3px black; /*SOMBRA DO TEXTO DA DIV*/
 }
