@@ -1,5 +1,5 @@
 body{
-    background: rgb(157, 157, 238); /*COLORIR FUNDO DA DIV*/
+    background-image:url(./FotoGabiFocoVinheta.jpg);/*Inserir imagem de fundo*/
     font: normal 15pt Arial; /*FONT DA DIV*/
 }
 
