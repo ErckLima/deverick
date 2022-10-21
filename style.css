@@ -1,5 +1,8 @@
 body{
     background-image:url(./imagemparaacalculadora.jpg);/*Inserir imagem de fundo*/
+    background-repeat: no-repeat;
+    min-width: auto;
+    min-height: auto;
     font: normal 15pt Arial; /*FONT DA DIV*/
 }
 
